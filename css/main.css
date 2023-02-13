@@ -1,6 +1,3 @@
-.u{
-    display: flex;
-    align-items: center;
-    background-color: aqua;
-    
+.contents .l .u{
+    list-style: none;
 }
