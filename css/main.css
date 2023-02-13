@@ -1,3 +1,4 @@
 .contents .l .u{
     list-style: none;
+    display: flex;
 }
