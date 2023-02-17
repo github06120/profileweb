@@ -1,4 +1,41 @@
-.contents .l .u{
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.contents{
+    
+}
+
+
+.contents .u{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+.contents .u .l:hover{
+    background-color: #c3e2ff;
+}
+
+
+.a{
+    text-align: right;
     list-style: none;
     display: flex;
+    justify-content: center;
+}
+.footer_img{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+#works{
+    display: flex;
+    justify-content: center;
+}
+#footer{
+    display: block;
+    justify-content: center;
 }
