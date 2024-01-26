@@ -1,9 +1,11 @@
 $(function(){
     $(window).scroll(function(){
-        if($(this).scrollTop() > 100){
-            $('#navMenu').addClass('menu');
+        if($(this).scrollTop() >= 50){
+            $('#scrollNav').addClass('scroll_nav');
+            $('#scrollBody').addClass('scroll_body');
         }else{
-            $('#navMenu').removeClass('menu');
+            $('#scrollNav').removeClass('scroll_nav');
+            $('#scrollBody').removeClass('scroll_body');
         }
     });
 });

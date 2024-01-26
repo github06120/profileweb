@@ -1,22 +1,74 @@
-.menu{
-    position: fixed;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu_nav{
+    display: block;
+    justify-content: center;
+    height: 96px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    /* background-color: red; */
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.scroll_nav{
+    display: block;
+    justify-content: center;
     top: 0;
     left: 0;
-}
-.contents{
+    right: 0;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    z-index: 5;
     
 }
-
-
-.contents .u{
+.menu{
+    height: 75px;
+}
+.menu .u{
+    margin: 0;
+    padding: 0;
+    
+    /* background-color: rgba(255, 255, 255, 0.9); */
+}
+.navMenu_body{
+    padding-top: 50px;
+    margin-top: 0;
+}
+.h100{
+    height: 48px;
+    padding: 0;
+    margin: 0;
+    
+}
+.u{
     display: flex;
     justify-content: flex-end;
     list-style: none;
+    margin: 0;
 }
-.contents .u .l:hover{
+.u .l{
+
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
+}
+.u .l:hover{
     background-color: #c3e2ff;
 }
 
+.menu .u{
+    display: flex;
+    justify-content: flex-end;
+    /* list-style: none; */
+}
+.l:hover{
+    background-color: #c3e2ff;
+}
 
 .a{
     text-align: right;
@@ -29,11 +81,18 @@
     height: 50px;
 }
 
+.works{
 
+}
+.boxContents{
+    margin: 2em 0;
+    background: #f1f1f1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.boxContents .b
 
 #works{
-    display: flex;
-    justify-content: center;
+    display: block;
 }
 #footer{
     display: block;
